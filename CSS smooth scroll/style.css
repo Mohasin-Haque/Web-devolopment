@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand',sans-serif;
+}
+
+body{
+    background: #f8fafe;
+}
+
+.container{
+    position: absolute;
+    top: 50%; left: 50%;
+    border-bottom: 5px solid #2d2f5a;
+    animation: animateContainer 5s infinite linear;
+}
+
+.container .hexagon{
+    position: absolute;
+    bottom: 13px; left: 0;
+    background: #920cc8;
+    width: 50px; height: 30px;
+    animation: animateHexagon 5s infinite linear;
+}
+
+.container .hexagon::before.container .hexagon::after{
+    content: "moahsin";
+    
+
+}
