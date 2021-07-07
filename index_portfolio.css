@@ -117,7 +117,7 @@ section {
 .link-primary {
     background-color: var(--primary-color);
     color: antiquewhite;
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
 }
 
 .footer {
